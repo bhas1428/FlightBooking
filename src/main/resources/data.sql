@@ -9,16 +9,3 @@ VALUES
   		'2',13000
   	);
   	
-  	
-  	
-
-   source_City VARCHAR(250) NOT NULL,
-  destination_city VARCHAR(250) NOT NULL,
-  travel_Date date DEFAULT NULL,
-   flight_Number VARCHAR(250) NOT NULL,
-   airline_Name VARCHAR(250) NOT NULL,
-   departure TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-   arrivalTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-   duration VARCHAR(250) NOT NULL,
-   no_OfStops VARCHAR(250) NOT NULL,
-   price INT 
